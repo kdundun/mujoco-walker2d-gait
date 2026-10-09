@@ -18,7 +18,7 @@ Models for 5 training seeds (10–14) are included. The trained speed range is 0
 | File | Content |
 |---|---|
 | `mywalker.py` | Environment and reward |
-| `walker2d_hipdmc.xml` | Gymnasium Walker2d-v5 model with the hip range changed to −20°…100° (DeepMind Control Suite walker) |
+| `walker2d_hipdmc.xml` | Gymnasium Walker2d-v5 model with the hip range changed to [−20°,100°] (DeepMind Control Suite walker) |
 | `play.py` | Loads a trained policy and runs it in the MuJoCo viewer |
 | `models/walker_ppo_v2_stand_seed*.zip` | Trained PPO policies |
 | `models/*_vecnormalize.pkl` | Observation normalization statistics |
