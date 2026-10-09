@@ -1,8 +1,6 @@
 # Walker2d: gait-style rewards with speed commands
 
-A Walker2d policy that follows speed commands (0, 0.5–1.5 m/s) with a symmetric,
-trained with PPO. The gait is shaped only by reward terms: no reference motion, no phase clock.
-
+A Walker2d policy that follows speed commands (0, 0.5–1.5 m/s) with a symmetric, trained with PPO.
 ```bash
 pip install -r requirements.txt
 python play.py                        # seed 10, 1.0 m/s
