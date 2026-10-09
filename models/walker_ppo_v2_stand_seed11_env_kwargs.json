@@ -1,0 +1,29 @@
+{
+  "speed_range": [
+    0.5,
+    1.5
+  ],
+  "track_sigma": 0.25,
+  "forward_reward_weight": 2.0,
+  "healthy_reward": 1.0,
+  "xml_file": "walker2d_hipdmc.xml",
+  "w_sym": 1.0,
+  "sym_k": 1.0,
+  "sym_window": 250,
+  "sym_normalize": true,
+  "sym_eps": 0.005,
+  "sym_min_half": 25,
+  "sym_amp_ratio": true,
+  "w_flight": 2.0,
+  "flight_force_ratio": 0.1,
+  "w_height": 70.0,
+  "height_target": 0.08,
+  "positive_reward": true,
+  "curriculum_penalties_only": true,
+  "w_cross": 20.0,
+  "step_len_min": 0.3,
+  "step_len_speed_exp": 0.5,
+  "stand_prob": 0.2,
+  "gait_gate_v": 0.1,
+  "w_stand": 1.0
+}
