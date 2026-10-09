@@ -53,4 +53,4 @@ r = TRACK + HEALTHY + SYM + s(t)·(HEIGHT − FLIGHT − STEP − STAND) − CTR
 The half step cycle used by SYM is measured from foot touchdowns.
 
 ## Results
-Gait quality varies across seeds: seed 10 is close to symmetric, while some seeds alternate a long and a short step.
+Gait quality varies across seeds: seed 10 is close to symmetric.
