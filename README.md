@@ -26,8 +26,8 @@ Models for 5 training seeds (10–14) are included. The trained speed range is 0
 ## Setup
 
 - **Environment:** Gymnasium Walker2d-v5 (MuJoCo), dt = 0.008 s, 1000 steps per episode.
-  The default hip range (−150°…0°) does not let the thigh swing forward relative to the torso,
-  so it was replaced by the DeepMind Control Suite range (−20°…100°).
+  The default hip range [−150°, 0°] does not let the thigh swing forward relative to the torso,
+  so it was replaced by the DeepMind Control Suite range [−20°,100°].
 - **Command:** a target speed v\* sampled per episode from 0.5–1.5 m/s and appended to the observation;
   20% of the episodes use v\* = 0 (standing).
 - **Algorithm:** PPO (Stable-Baselines3) with RL Zoo Walker2d hyperparameters, 8 parallel envs,
